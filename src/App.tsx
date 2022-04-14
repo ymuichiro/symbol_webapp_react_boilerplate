@@ -1,3 +1,4 @@
+if (typeof Buffer === 'undefined') global.Buffer = require('buffer').Buffer;
 import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
